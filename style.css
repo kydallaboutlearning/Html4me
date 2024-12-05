@@ -5,6 +5,7 @@
   font-family: 'kumph sas',Sans-Serif;
 }
 
+/*Creating a mordern slick navbar */
 .navbar{
   background: #131313;
   height: 80px;
@@ -12,7 +13,11 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  /* making the position sticky to enable the nav bar stay at the top always even  while scroling */
   position: sticky;
+  
+  /*Adding the top to 0 enable no spacing between the navbar and the top of the screen */
   top: 0;
+  /* Adding a Z index to ensure the navabar content isn't covered by other content */
   z-index: 999;
 }
