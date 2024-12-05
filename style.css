@@ -28,9 +28,15 @@
   display: flex;
   justify-content: space-between;
   /* makimg the height 100% in order to have 100% of it's parent element size */
-  height: 100%;
+  height: 80px;
+  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 30px;
   z-index: 1;
+}
+
+#navbar__logo{
+  background-color: #ff8177;
+  background_image: linear-gradient(to top, #ff0844 0% #ffb199 100%);
 }
