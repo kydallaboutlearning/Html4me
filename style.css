@@ -21,3 +21,13 @@
   /* Adding a Z index to ensure the navabar content isn't covered by other content */
   z-index: 999;
 }
+
+.navbar__container{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  z-index: 1;
+}
