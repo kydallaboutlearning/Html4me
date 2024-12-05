@@ -22,9 +22,12 @@
   z-index: 999;
 }
 
+/* adding a styling for the navbar container */
+
 .navbar__container{
   display: flex;
   justify-content: space-between;
+  /* makimg the height 100% in order to have 100% of it's parent element size */
   height: 100%;
   max-width: 1300px;
   margin: 0 auto;
