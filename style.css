@@ -1,22 +1,14 @@
-body {
-  text-align: center;
-  background-color: #0077;
-  padding: 15px;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'kumph sas',Sans-Serif;
 }
 
-h1 {
-  text-align: center;
-  text-decoration-line: center;
-  color: green;
-  background-color: yellow;
-}
-p {
-  font-family: Trebuchet MS,Sans-Serif;
-  font-size: 15px;
-  color: green;
-
-}
-
-div {
-  padding: 12px;
+.navbar{
+  background: #131313;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  
 }
