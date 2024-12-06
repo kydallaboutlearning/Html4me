@@ -36,6 +36,7 @@
   z-index: 1;
 }
 
+/* Adding styling to the navbar__logo to makebit mordern like and functional */
 #navbar__logo{
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 1%, #ffb199 100%);
@@ -47,5 +48,18 @@
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2.5 2rem;
+  font-size: 2.0rem;
 }
+
+.fa-gem{
+  margin-right: 0.5rem;
+}
+
+.navbar__menu{
+display: flex;
+align-items: center;
+list-style: none;
+text-align: center;
+}
+
+
