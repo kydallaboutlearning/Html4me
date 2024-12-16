@@ -1,71 +1,8 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'kumph sas',Sans-Serif;
+  overflow-x: hidden;
 }
 
-/*Creating a mordern slick navbar */
-.navbar{
-  background: #131313;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  /* making the position sticky to enable the nav bar stay at the top always even  while scroling */
-  position: sticky;
-  
-  /*Adding the top to 0 enable no spacing between the navbar and the top of the screen */
-  top: 0;
-  /* Adding a Z index to ensure the navabar content isn't covered by other content */
-  z-index: 999;
-}
-
-/* adding a styling for the navbar container */
-
-.navbar__container{
-  display: flex;
-  justify-content: space-between;
-  /* makimg the height 100% in order to have 100% of it's parent element size */
-  height: 80px;
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 30px;
-  z-index: 1;
-}
-
-/* Adding styling to the navbar__logo to makebit mordern like and functional */
-#navbar__logo{
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 1%, #ffb199 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display : flex;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-}
-
-.fa-gem{
-  margin-right: 0.5rem;
-}
-
-.navbar__menu{
-display: flex;
-align-items: center;
-list-style: none;
-text-align: center;
-}
-
-.navbar__item{
-  height: 80px;
-}
-
-.navbar__link{
-  color: #fff;
-}
