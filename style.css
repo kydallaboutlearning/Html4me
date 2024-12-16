@@ -6,3 +6,17 @@
   overflow-x: hidden;
 }
 
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: #000;
+  z-index: 1000;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: fixed;
+}
+
+
