@@ -48,3 +48,14 @@
 }
 
 
+.navbar__item{
+  height: 80px;
+}
+
+.navbar__links{
+ color: #fff;
+ text-decoration: none;
+ padding: 0 1rem;
+ display: flex;
+ align-items: center;
+}
