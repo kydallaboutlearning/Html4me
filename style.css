@@ -90,3 +90,9 @@
   border: none;
   display: flex;
 }
+
+/* Adding hover effect */
+.button:hover {
+  background: #3c90f0;
+  transition: all 0.3 ease;
+}
