@@ -59,3 +59,9 @@
  display: flex;
  align-items: center;
 }
+
+/* added the hover effect */
+.navbar__links:hover {
+  color: rgb(68, 68, 180);
+  transition: all 0.3s ease;
+}
