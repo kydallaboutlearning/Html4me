@@ -213,6 +213,13 @@
   text-align: center;
 }
 
+.navbar__btn.mobile:hover {
+  background: #3c90f0;
+  transition: all 0.3 ease;
+  padding: 12px 25px;
+  border-radius: 5px;
+}
+
 
 
 
