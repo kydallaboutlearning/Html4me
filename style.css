@@ -124,6 +124,16 @@
     cursor: pointer;
     padding: 0;
   }
+    
+  .navbar__toggle .bar{
+    width: 28px;
+    height: 4px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #f02727;
+  }
+
+  
 
  
 }
