@@ -19,18 +19,6 @@
   position: fixed;
 }
 
-.navbar__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  background: #000;
-  z-index: 1000;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 50px;
-  position: fixed;
-}
 
 
 .navbar-logo{
@@ -245,3 +233,26 @@
 
 }
 
+
+
+/* Hero section */
+
+.hero{
+  background-color: #141414;
+}
+
+.hero__conmtainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  height: 90vh;
+  width: 100%;
+  padding: 0 50px;
+  max-width: 1300px;
+  position: absolute;
+  top: 80px;
+}
+
+
+ 
