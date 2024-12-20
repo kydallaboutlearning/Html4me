@@ -46,10 +46,6 @@
 }
 
 
-.navbar-logo.mobile{
-  display: none;
-}
-
 
 .navbar__menu{
   display: flex;
@@ -169,7 +165,7 @@
     top: 80px;
     left: -100%;
     z-index: 10;
-    background-color: #000;
+    background-color: #141414 ;
     transition: all 0.3s ease-in;
     opacity: 0;
     width: 45%;
@@ -192,15 +188,7 @@
     justify-content: center;
   }
 
- 
-  .navbar-logo.mobile{
-  display: flex;
-}
-
+ /* logo */
   .navbar-logo.desktop{
-  display: none;
-}
-  
-
- 
+  font-size: 2rem;
 }
