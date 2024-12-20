@@ -169,11 +169,15 @@
     top: 80px;
     left: -100%;
     z-index: 10;
-    background-color: #14141414;
+    background-color: #000;
     transition: all 0.3s ease-in;
     opacity: 0;
-    width: 40%;
+    width: 45%;
     height: calc(100% - 80px);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #fff;
+    box-shadow: 0 2px 5px orange;
   }
 
   .navbar__menu.active{
