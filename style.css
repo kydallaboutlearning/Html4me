@@ -139,6 +139,7 @@
   }
     
   .toggle{
+    display: block;
     width: 32px;
     height: 4px;
     margin: 7px 10px;
@@ -146,6 +147,19 @@
     background: #fff;
     border-radius: 4px;
   }
+
+  #mobile-menu.is-active .toggle:nth-child(2) {
+    opacity: 0;
+ }
+
+ #mobile-menu.is-active .toggle:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+ }
+ 
+ 
+ #mobile-menu.is-active .toggle:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+ }
 
   .navbar__menu{
     flex-direction: column;
