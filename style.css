@@ -197,3 +197,23 @@
 .navbar__btn.desktop {
   display: none;
 }
+
+
+.navbar__btn.mobile {
+  display: flex;
+  background:  rgb(68, 68, 180);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  display: flex;
+  font-size: 1.5rem;
+  margin: 0 27px;
+  text-align: center;
+}
+
+
+
+
+}
