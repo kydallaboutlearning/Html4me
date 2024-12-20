@@ -213,12 +213,19 @@
   text-align: center;
 }
 
+/* Adding hover effct to the navbar button */
 .navbar__btn.mobile:hover {
   background: #3c90f0;
   transition: all 0.3 ease;
   padding: 12px 25px;
   border-radius: 5px;
 }
+
+
+.navbar__links {
+  padding: 0 0.5rem;
+ }
+ 
 
 
 
