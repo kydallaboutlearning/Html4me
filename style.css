@@ -33,12 +33,23 @@
 }
 
 
-#navbar-logo {
+.navbar-logo{
   color: rgb(68, 68, 180);
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem
 }
+
+
+.navbar-logo.desktop{
+  display: flex;
+}
+
+
+.navbar-logo.mobile{
+  display: none;
+}
+
 
 .navbar__menu{
   display: flex;
@@ -154,8 +165,13 @@
   }
 
  
-   
+  .navbar-logo.mobile{
+  display: flex;
+}
 
+  .navbar-logo.desktop{
+  display: none;
+}
   
 
  
