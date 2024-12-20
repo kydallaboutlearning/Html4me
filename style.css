@@ -133,6 +133,17 @@
     background: #f02727;
   }
 
+  .navbar__menu{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 80px;
+  }
+
+ 
+   
+
   
 
  
