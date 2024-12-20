@@ -146,6 +146,14 @@
     opacity: 1;
   }
 
+  
+  .navbar__item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+ 
    
 
   
