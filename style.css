@@ -192,3 +192,8 @@
   .navbar-logo.desktop{
   font-size: 2rem;
 }
+
+/* sign up button */
+.navbar__btn.desktop {
+  display: none;
+}
