@@ -230,10 +230,12 @@
   padding: 10px 20px;
   margin-top: 10px;
  }
-
+ 
+ .navbar__menu{
+margin: 0 5px;
 }
 
-
+}
 
 /* Hero section */
 
@@ -241,7 +243,7 @@
   background-color: #141414;
 }
 
-.hero__conmtainer{
+.hero__container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -254,5 +256,8 @@
   top: 80px;
 }
 
+.hero__content{
+  justify-content:  center;
+}
 
  
