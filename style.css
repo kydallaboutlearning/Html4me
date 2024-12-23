@@ -252,12 +252,10 @@ margin: 0 5px;
   width: 100%;
   padding: 0 50px;
   max-width: 1300px;
-  position: absolute;
-  top: 80px;
 }
 
 .hero__content{
-  justify-content:  center;
+  color: #fff;
 }
 
  
