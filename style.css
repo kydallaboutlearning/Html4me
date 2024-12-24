@@ -5,7 +5,7 @@
   font-family: 'kumph sas',Sans-Serif;
   overflow-x: hidden;
 }
-
+/* navbar css */
 .navbar__container {
   display: flex;
   justify-content: space-between;
@@ -156,7 +156,7 @@
     background-color: #141414 ;
     transition: all 0.3s ease-in;
     opacity: 0;
-    width: 45%;
+    width: 70%;
     height: calc(100% - 80px);
     border-top-style: solid;
     border-top-width: 1px;
@@ -232,7 +232,7 @@
  }
  
  .navbar__menu{
-margin: 0 5px;
+margin: 0;
 }
 
 }
@@ -245,17 +245,16 @@ margin: 0 5px;
 
 .hero__container{
   display: grid;
+  width: 100vh;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin: 0 auto;
   height: 90vh;
-  width: 100%;
-  padding: 0 50px;
-  max-width: 1300px;
 }
 
 .hero__content{
   color: #fff;
 }
 
+.hero__content h1{
+  font-size: 4rem;
+}
  
