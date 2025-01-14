@@ -284,6 +284,7 @@ margin: 0;
   border: none;
   transition: all 0.3s ease-in;
   position: relative;
-  left: 25%;
+  left: 30%;
   cursor: pointer;
 }
+
