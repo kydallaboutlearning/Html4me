@@ -230,7 +230,7 @@
   align-items: center;
   padding: 0 50px;
   max-width: 1300px;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .hero__content {
@@ -279,4 +279,12 @@
 #hero-img {
   height: 90%;
   width: 90%;
+}
+
+/* mobile responsiveness for hero section */
+@media screen and (max-width: 768px) {
+  .hero__container {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
 }
