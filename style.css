@@ -290,4 +290,8 @@
     text-align: center;
     margin-bottom: 50px;
   }
+
+  .hero__content h1{
+    font-size: 2rem;
+  }
 }
