@@ -315,3 +315,13 @@
   padding: 40px 0;
   white-space: nowrap;
 }
+
+.rotating-logos__container:hover .rotating-logos__trackn {
+  animation-play-state: paused;
+}
+
+.rotating-logos__track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
