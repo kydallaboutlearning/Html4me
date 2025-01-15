@@ -347,5 +347,18 @@
 .why-choose-us {
   text-align: center;
   background-color: rgb(68, 68, 180);
-  padding: 100px 20px;
+  padding: 35px 20px;
+}
+
+.why-choose-us h1 {
+  font-size: 3rem;
+  color: #fff;
+  padding: 40px;
+}
+
+.intro-text p {
+  color: #fff;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
