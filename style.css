@@ -323,5 +323,23 @@
 .rotating-logos__track {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 15s linear infinite;
+  animation: rotate 15s linear infinite;
+}
+
+.rotating-logos__text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: tranlateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+
 }
