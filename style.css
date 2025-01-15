@@ -341,3 +341,16 @@
     transform: translateX(-100%);
   }
 }
+
+/* why choose us section */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500
+  'GRAD' 0,
+  'opsz' 90;
+  overflow: hidden;
+  width: fit-content;
+  height: max-content
+}
