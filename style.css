@@ -409,3 +409,18 @@
   color: #fff;
   line-height: 1.4;
 }
+
+
+/* adding mobile responsiveness */
+@media screen and (max-width: 968px) {
+  .features-grid{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* removing the line */
+.fa-solid {
+  line-height: normal !important;
+}
