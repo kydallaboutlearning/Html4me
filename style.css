@@ -343,3 +343,9 @@
 }
 
 /* why choose us section */
+
+.why-choose-us {
+  text-align: center;
+  background-color: rgb(68, 68, 180);
+  padding: 100px 20px;
+}
