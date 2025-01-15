@@ -305,3 +305,41 @@
     left: 2%;
   }
 }
+
+/* rotating logos styling */
+
+.rotating-logos__container {
+  overflow: hidden;
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.rotating-logos__container:hover .rotating-logos__trackn {
+  animation-play-state: paused;
+}
+
+.rotating-logos__track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: rotate 13s linear infinite;
+}
+
+.rotating-logos__text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: tranlateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* why choose us section */
