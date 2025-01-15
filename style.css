@@ -306,13 +306,12 @@
   }
 }
 
-
 /* rotating logos styling */
 
 .rotating-logos__container {
   overflow: hidden;
   background-color: #f8f8f8;
-  padding: 40px 0;
+  padding: 20px 0;
   white-space: nowrap;
 }
 
@@ -323,11 +322,11 @@
 .rotating-logos__track {
   display: inline-block;
   white-space: nowrap;
-  animation: rotate 15s linear infinite;
+  animation: rotate 13s linear infinite;
 }
 
 .rotating-logos__text {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #000;
   margin: 0 20px;
@@ -341,5 +340,4 @@
   to {
     transform: translateX(-100%);
   }
-
 }
