@@ -362,3 +362,19 @@
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature {
+  background-color: #141414;
+  padding: 40px;
+  text-align: left;
+  max-width: 300px;
+  border-radius: 10px;
+box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.2)
+}
