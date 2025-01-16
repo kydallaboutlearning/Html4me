@@ -490,7 +490,7 @@
   border-radius: 30px;
 }
 
-.slider:before {
+.slider::before {
   position: absolute;
   content: "";
   height: 22px;
@@ -502,3 +502,10 @@
   transition: 0.4s; 
 }
  
+.input:checked + .slider {
+  color: rgb(68, 68, 180);
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 3px rgb(68, 68, 180);
+}
