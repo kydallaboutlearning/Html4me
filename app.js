@@ -9,3 +9,34 @@ menu.addEventListener("click", function () {
 // Adding javascrippt to clone the logo
 const logos = document.querySelector(".rotating-logos__track").cloneNode(true);
 document.querySelector(".rotating-logos__container").appendChild(logos);
+
+
+function SwitchPricing() {
+  // Getting the checkbox element by its correct ID
+  const checkbox = document.getElementById("pricing-toggle-checkbox");
+
+  // Selecting elements for monthly and yearly prices, and yearly discount
+  const monthlyprices = document.querySelectorAll(".monthly-price");
+  const yearlyprices = document.querySelectorAll(".yearly-price");
+  const yearlyDiscounts = document.querySelectorAll(".percentage-saved");
+
+  // Adding the if statement
+  if (checkbox.checked) {
+    // Hide monthly prices and show yearly prices
+    monthlyprices.forEach((price) => price.classList.add("hidden"));
+    yearlyprices.forEach((price) => price.classList.remove("hidden"));
+
+    // Show yearly discount
+    yearlyDiscounts.forEach((discount) => (discount.style.display = "inline"));
+  } else {
+    // Show monthly prices and hide yearly prices
+    monthlyprices.forEach((price) => price.classList.remove("hidden"));
+    yearlyprices.forEach((price) => price.classList.add("hidden"));
+
+    // Hide yearly discount
+    yearlyDiscounts.forEach((discount) => (discount.style.display = "none"));
+  }
+
+  // Debugging log
+  console.log("SwitchPricing function executed successfully");
+}
