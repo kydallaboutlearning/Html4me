@@ -440,3 +440,26 @@
   align-items: center;
   justify-content: center;
 }
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.pricing-toggle .toggle-option {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}
+
+.pricing-toggle .percentage-save__container {
+  width: 100px;
+  display: inline-block;
+  justify-items: center;
+}
+
+.pricing-toggle .percentage-saved {
+  color: rgb(68, 68, 180);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
