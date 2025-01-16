@@ -235,11 +235,10 @@
   margin-top: 7rem;
 }
 
-
 @media screen and (max-width: 1350px) {
-  .hero__container{
+  .hero__container {
     max-width: 1300px;
-}
+  }
 }
 .hero__content {
   color: #fff;
@@ -286,8 +285,6 @@
   height: 90%;
   width: 90%;
 }
-
-
 
 /* mobile responsiveness for hero section */
 @media screen and (max-width: 768px) {
@@ -373,7 +370,8 @@
   margin-right: auto;
   margin-bottom: 50px;
   font-size: 1.5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .features-grid {
@@ -410,17 +408,35 @@
   line-height: 1.4;
 }
 
-
 /* adding mobile responsiveness */
 @media screen and (max-width: 968px) {
-  .features-grid{
+  .features-grid {
     flex-direction: column;
     align-items: center;
   }
 }
 
-
 /* removing the line */
 .fa-solid {
   line-height: normal !important;
+}
+
+/* Services styling */
+
+.pricing {
+  text-align: center;
+  z-index: 1;
+  padding: 1 2rem;
+}
+
+.pricing h2 {
+  margin-bottom: 2rem;
+}
+
+.pricing-toggle {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
