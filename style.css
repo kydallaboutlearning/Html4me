@@ -465,6 +465,8 @@
   font-weight: bold;
 }
 
+/* Adding the styling to toggle the box */
+
 .switch {
   position: relative;
   display: inline-block;
@@ -499,13 +501,17 @@
   bottom: 4px;
   background-color: #fff;
   border-radius: 50%;
-  transition: 0.4s; 
-}
- 
-.input:checked + .slider {
-  color: rgb(68, 68, 180);
+  transition: 0.4s;
 }
 
-.input:focus + .slider {
-  box-shadow: 0 0 3px rgb(68, 68, 180);
+input:checked + .slider {
+  background-color: rgb(68, 68, 180); /* Change the background when checked */
+}
+
+input:checked + .slider::before {
+  transform: translateX(50px); /* Move the toggle circle */
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 3px rgb(68, 68, 180); /* Add focus outline */
 }
