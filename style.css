@@ -610,4 +610,14 @@ transition: all 0.3s;
 
 .service-button:hover {
   background-color:   rgb(149, 149, 239);
+  transform: translateY(-2px);
+}
+
+.desc {
+font-size: 1rem;
+color: #999;
+padding: 8px 8px;
+
+-webkit-text-stroke: 0.5px black; /* Outline width and color */
+
 }
