@@ -552,3 +552,27 @@ input:focus + .slider {
   transition: transform 0.3s ease,box-shadows 0.3s ease ;
 }
 
+.services-card:hover {
+background-color:  rgb(68, 68, 180);
+}
+
+.services-content {
+  flex-grow: 1;
+}
+
+.services-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.services-card p{
+  margin-bottom: 1.5rem;
+  color: #131313;
+}
+
+
+.services-card ul {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 1rem;
+}
