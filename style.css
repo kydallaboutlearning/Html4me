@@ -668,3 +668,27 @@ max-width: 400px;
  }
 
 }
+
+
+/* footer styling  */
+.footer__container {
+  background-color: #141414;
+  color: #fff;
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.footer__logo {
+  color: rgb(68, 68, 180);
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.footer__container a {
+  text-decoration: none;
+}
