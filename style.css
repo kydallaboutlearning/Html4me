@@ -432,7 +432,7 @@
 }
 
 .pricing h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.6rem;
 }
 
 .pricing-toggle {
@@ -522,7 +522,7 @@ input:focus + .slider {
 /* beginning services  */
 
 .pricing .main-header {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 
@@ -652,6 +652,19 @@ span.line {
 
 
 /* mobile responsiveness */
-@media screen and (max-width: 968pxs) {
+@media screen and (max-width: 968px) {
+/* arranging the servucein column view */
+.services-container {
+  flex-direction: column;
+  align-items: center;
+}
+.services-card{
+width: 100%;
+max-width: 400px;
+}
+.pricing-toggle{
+  flex-direction: column;
+  align-items: center;
+ }
 
 }
