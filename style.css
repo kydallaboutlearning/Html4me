@@ -427,7 +427,7 @@
 .pricing {
   text-align: center;
   z-index: 1;
-  padding: 1 2rem;
+  padding: 1rem 2rem;
   background: purple;
 }
 
@@ -522,3 +522,33 @@ input:checked + .slider::before {
 input:focus + .slider {
   box-shadow: 0 0 3px rgb(68, 68, 180); /* Add focus outline */
 }
+
+
+/* beginning services  */
+
+.pricing .main-header {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.services-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+
+.services-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #131313;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease,box-shadows 0.3s ease ;
+}
+
