@@ -594,11 +594,11 @@ input:focus + .slider {
   margin: 1rem 0;
 }
 
-.service-signup {
+.service-button {
 display: inline-block;
 border: none;
 color: #fff;
-background-color:   rgb(68, 68, 180);
+background-color:   rgb(17, 17, 117);
 padding: 0.75rem 2.5rem ;
 text-decoration: none;
 border-radius: 5px;
@@ -606,4 +606,8 @@ margin-bottom: 1rem;
 cursor: pointer;
 width: 100%;
 transition: all 0.3s;
+}
+
+.service-button:hover {
+  background-color:   rgb(149, 149, 239);
 }
