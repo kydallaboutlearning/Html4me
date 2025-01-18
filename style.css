@@ -584,5 +584,17 @@ background-color:  rgb(68, 68, 180);
 
 .services-card ul li {
   font-size: 1rem;
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0;
 }
+
+.price-card {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.price-card .price {
+  font-size: 1.5rem;
+  color: #141414;
+  margin: 1rem 0;
+}
+
