@@ -633,3 +633,23 @@ padding: 8px 8px;
 
 }
 
+span.line {
+  display: block; /* Makes the span behave like a block-level element */
+  width: calc(100% - 1rem);
+  height: 2px;
+  background: #000;
+  border-radius: 1px;
+  margin: 10px 0; /* Adds spacing above and below the line */
+}
+
+
+
+/* hiding texts */
+.hidden {
+  display: none;
+}
+
+
+.percentage-saved{
+  display: none;
+}
