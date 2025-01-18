@@ -428,7 +428,7 @@
   text-align: center;
   z-index: 1;
   padding: 1rem 2rem;
-  background: purple;
+  background: #141414;
 }
 
 .pricing h2 {
@@ -464,11 +464,6 @@
   color: rgb(68, 68, 180);
   font-size: 1.2rem;
   font-weight: bold;
-  width: 100px;
-  height: 30px;
-  background-color: #ccc;
-  align-content: center;
-  border-radius: 3px;
 
 }
 
@@ -551,7 +546,7 @@ input:focus + .slider {
   flex-direction: column;
   justify-content: space-between;
   transition: transform 0.3s ease,box-shadow 0.3s ease ;
-  border: 1px solid red; /* Temporary for debugging */
+  border: 1px solid rgb(68, 68, 180); /* Temporary for debugging */
 }
 
 .services-content {
@@ -598,7 +593,7 @@ input:focus + .slider {
 display: inline-block;
 border: none;
 color: #fff;
-background-color:   rgb(17, 17, 117);
+background-color: rgb(68, 68, 180);
 padding: 0.75rem 2.5rem ;
 text-decoration: none;
 border-radius: 5px;
@@ -609,7 +604,7 @@ transition: all 0.3s;
 }
 
 .service-button:hover {
-  background-color:   rgb(149, 149, 239);
+  background-color: #3c90f0;
   transform: translateY(-2px);
 }
 
@@ -630,6 +625,7 @@ padding: 8px 8px;
   font-size: 1.3rem;
   color: #999;
   -webkit-text-stroke: 0.5px black; /* Outline width and color */
+  height: 4rem;
 
 }
 
@@ -652,4 +648,10 @@ span.line {
 
 .percentage-saved{
   display: none;
+}
+
+
+/* mobile responsiveness */
+@media screen and (max-width: 968pxs) {
+
 }
