@@ -554,10 +554,6 @@ input:focus + .slider {
   border: 1px solid red; /* Temporary for debugging */
 }
 
-.services-card:hover {
-background-color:  rgb(68, 68, 180);
-}
-
 .services-content {
   flex-grow: 1;
 }
@@ -598,3 +594,16 @@ background-color:  rgb(68, 68, 180);
   margin: 1rem 0;
 }
 
+.service-signup {
+display: inline-block;
+border: none;
+color: #fff;
+background-color:   rgb(68, 68, 180);
+padding: 0.75rem 2.5rem ;
+text-decoration: none;
+border-radius: 5px;
+margin-bottom: 1rem;
+cursor: pointer;
+width: 100%;
+transition: all 0.3s;
+}
