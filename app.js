@@ -40,3 +40,11 @@ function SwitchPricing() {
   // Debugging log
   console.log("SwitchPricing function executed successfully");
 }
+
+
+window.addEventListener("load",() => {
+  // Selecting the checkbox element by its correct ID
+  const Yearchanger = document.getElementById("year");
+  const currentYear = new Date().getFullYear();
+  Yearchanger.textContent = currentYear;
+});
