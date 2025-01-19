@@ -658,16 +658,22 @@ span.line {
   flex-direction: column;
   align-items: center;
 }
+
 .services-card{
 width: 100%;
 max-width: 400px;
 }
+
 .pricing-toggle{
   flex-direction: column;
   align-items: center;
+  flex-direction: column;
  }
-
+ .card-features .list{
+  font-size: 1rem;
 }
+}
+
 
 
 /* footer styling  */
@@ -706,6 +712,7 @@ max-width: 400px;
   display: flex;
   flex-direction: column;
   margin : 0 1rem;
+  /* text-align: center; */
 
 }
 
@@ -756,3 +763,46 @@ max-width: 400px;
   color:  rgb(68, 68, 180);
   font-size: 24px;
 }
+
+
+.fa-brands {
+  color: #fff;
+  line-height: normal !important;
+  font-size: 2rem;
+
+
+}
+
+/* creating responsiveness */
+@media screen and (max-width:968px) {
+  .social__media {
+    text-align: center;
+}
+.footer__links-wrapper  {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.social__media-wrap {
+  flex-direction: column;
+}
+
+
+.social__icons {
+width: 50%;
+}
+
+.footer__container {
+  padding: 2rem 0;
+}
+
+.footer__links-items a {
+  margin-bottom: 1rem;
+}
+
+.footer__links-items {
+  height: 30vh;
+}
+}
+
+
