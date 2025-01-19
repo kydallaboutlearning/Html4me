@@ -826,10 +826,14 @@ width: 50%;
   padding: 10px;
 }
 
-.header__text h1{
+.header__text h1 {
+color: #f8f8f8;
 font-size: 2.5rem;
 font-weight: bolder;
 -webkit-text-stroke: 0.5px rgb(0, 0, 0); /* Outline width and color */
+}
 
-
+.header__text p{
+  color: #f8f8f8;
+  font-size: 1rem;
 }
