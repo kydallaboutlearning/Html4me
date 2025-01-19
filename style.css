@@ -149,7 +149,7 @@
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: #fff;
-    box-shadow: 0 2px 5px orange;
+    box-shadow: 0 2px 5px #3c90f0;
   }
 
   .navbar__menu.active {
