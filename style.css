@@ -930,4 +930,7 @@ font-weight: bolder;
   font-size: 1rem;
 }
 
-
+.signup__content form input:focus {
+  border: 1px solid rgb(68, 68, 180);
+  outline: none;
+}
