@@ -870,7 +870,8 @@ font-weight: bolder;
   display: flex;
   text-decoration: none;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  font-weight: bolder;
 }
 
 
@@ -882,7 +883,7 @@ font-weight: bolder;
   color: #fff;
   width: 100%;
   height: 80vh;
-  max-width: 600px;
+  max-width: 550px;
   justify-content: center;
   border-radius: 20px;
   border: 1px solid rgb(68, 68, 180);
@@ -923,14 +924,29 @@ font-weight: bolder;
 
 .signup__content form input {
   width: 100%;
-  padding: 0.8rem;
+  padding: 0.5rem 1rem;
   margin: 10px 0;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #ccc;
   font-size: 1rem;
+  background-color: #000;
+  color: #fff;
 }
 
 .signup__content form input:focus {
   border: 1px solid rgb(68, 68, 180);
   outline: none;
+}
+
+.signup__container button {
+  background: rgb(68, 68, 180);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  display: flex;
+  font-size: 1.5rem;
+  margin: 0 27px;
+  cursor: pointer;
 }
