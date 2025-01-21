@@ -814,7 +814,7 @@ width: 50%;
   height: 100%;
   margin: 0 auto;
   position: absolute;
-  top: 80px;
+  top: 30px;
   text-align: center;
   padding: 10px 50px;
   background: #141414;
@@ -842,6 +842,18 @@ font-weight: bolder;
 
 /* sign up card styling */
 
+.navbar__container.sign-up{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background: #000;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: fixed;
+}
+
 .signup__container {
   display: flex;
   justify-content: center;
@@ -854,12 +866,11 @@ font-weight: bolder;
 
 .signup__logo {
   color: rgb(68, 68, 180);
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   text-decoration: none;
   justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 1px;
+  margin-bottom: 1rem;
 }
 
 
@@ -875,5 +886,28 @@ font-weight: bolder;
   justify-content: center;
   border-radius: 20px;
   border: 1px solid rgb(68, 68, 180);
-  box-shadow: 0 0 10px rgba(68, 68, 180 0.5);
+  box-shadow: 0 0 10px rgba(68, 68, 180,0.5);
+};
+
+
+.signup__content{
+  flex-grow: 1;
+  margin: 0 10px;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
 }
+
+.signup__header{
+  margin-bottom: 1.5rem;
+}
+
+
+.signup__header h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 1.5rem 0;
+}
+
+
+
