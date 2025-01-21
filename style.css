@@ -870,7 +870,7 @@ font-weight: bolder;
   display: flex;
   text-decoration: none;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 
@@ -918,9 +918,16 @@ font-weight: bolder;
   align-items: center;
   margin: 0 auto;
   padding: 10px;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
-
+.signup__content form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
 
 
