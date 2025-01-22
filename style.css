@@ -1067,4 +1067,6 @@ font-weight: bolder;
 }
 
 
-
+.newsletter__content form button:hover {
+  background-color: #5050d1;
+}
