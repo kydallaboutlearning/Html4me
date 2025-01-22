@@ -1036,3 +1036,18 @@ font-weight: bolder;
   text-align: center;
 }
 
+
+.newsletter__content p {
+  color: #fff;
+  margin: 0.5rem;
+}
+
+
+
+.newsletter__content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
