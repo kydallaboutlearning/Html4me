@@ -1070,3 +1070,25 @@ font-weight: bolder;
 .newsletter__content form button:hover {
   background-color: #5050d1;
 }
+
+@media screen and (max-width: 768px) {
+  .newsletter__container {
+    padding: 15px;
+  }
+
+  .newsletter__content h1 {
+    font-size: 1.8rem;
+  }
+
+  .newsletter__content p {
+    font-size: 1rem;
+  }
+
+  .newsletter__content form input {
+    font-size: 0.9rem;
+  }
+
+  .newsletter__content form button {
+    font-size: 1rem;
+  }
+}
