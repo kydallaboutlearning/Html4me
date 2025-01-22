@@ -1001,7 +1001,7 @@ font-weight: bolder;
   max-width: 800px;
   width: 100%;
   padding: 20px;
-  margin: 0 auto;
+  margin-bottom: 1rem;
   background-color: #2c2c2c;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -1016,7 +1016,7 @@ font-weight: bolder;
 
 .newsletter__content h1 {
   font-size: 2rem;
-  color: #fff;
+  color:rgb(68, 68, 180);
   margin-bottom: 10px;
 }
 
@@ -1065,3 +1065,6 @@ font-weight: bolder;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+
+
